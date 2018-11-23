@@ -1,0 +1,39 @@
+body{
+  background: #fff;
+}
+
+h1 {
+  color: blue;
+  z-index: 1;
+  font-family: 'Ranga', cursive;
+  font-size: 2em;
+}
+
+#myCanvas{
+  z-index: 2;
+}
+
+.content {
+position: absolute;
+width: 150px;
+height: 150px;
+border: 1px solid;
+margin: 10px;
+background:  url("../images/mapa.png");
+/*background-image:  url(a.jpg);*/
+border-radius : 100%;
+animation : rotacion 5s infinite linear;
+box-shadow : 0px 5px 50px #888;
+}                                 
+
+.sombra3d{
+  background: url("sombra3d.png");
+  position: absolute;
+  width: 92 px;
+  height: 92 px;
+}
+@keyframes rotacion {
+
+0%{ background-position: 0px 0px; }
+100%{ background-position: -120px 0px; }
+}
