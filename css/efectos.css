@@ -15,7 +15,7 @@ h1 {
 
 .content {
 position: absolute;
-width: 1500px;
+width: 1350px;
 height: 90px;
 border: 1px solid;
 margin: 10px;
@@ -23,7 +23,7 @@ background:  url("../images/teq.jpg");
 /*background-image:  url(a.jpg);*/
 border-radius : 1%;
 animation : rotacion 10s infinite linear;
-box-shadow : 0px 5px 50px #888;
+box-shadow : 0px 1px 10px #888;
 }                                 
 
 .sombra3d{
@@ -34,6 +34,6 @@ box-shadow : 0px 5px 50px #888;
 }
 @keyframes rotacion {
 
-0%{ background-position: 10px 0px; }
+0%{ background-position: 0px 0px; }
 100%{ background-position: 360px 0px; }
 }
