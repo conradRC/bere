@@ -15,13 +15,13 @@ h1 {
 
 .content {
 position: absolute;
-width: 150px;
-height: 150px;
+width: 1500px;
+height: 90px;
 border: 1px solid;
 margin: 10px;
-background:  url("../images/mapa.png");
+background:  url("../images/teq.jpg");
 /*background-image:  url(a.jpg);*/
-border-radius : 100%;
+border-radius : 1%;
 animation : rotacion 5s infinite linear;
 box-shadow : 0px 5px 50px #888;
 }                                 
