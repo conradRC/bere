@@ -1,39 +1,26 @@
-body{
-  background: #fff;
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
-
-h1 {
-  color: blue;
-  z-index: 1;
-  font-family: 'Ranga', cursive;
-  font-size: 2em;
+.content {
+  background-image: url(images/921624.jpg);
+  width: 50%;
+  height: 50%;
+  background-position: bottom;
+  position: relative;
 }
-
-#myCanvas{
-  z-index: 2;
-}
-
+/*
 .content {
 position: absolute;
 width: 1350px;
 height: 90px;
 border: 1px solid;
 margin: 10px;
-background:  url("../images/teq.jpg");
-/*background-image:  url(a.jpg);*/
+background:  url("images/teq.jpg");
+background-image:  url(images/teq.jpg);
 border-radius : 1%;
 animation : rotacion 15s infinite linear;
 box-shadow : 0px 1px 10px #888;
 }                                 
-
-.sombra3d{
-  background: url("sombra3d.png");
-  position: absolute;
-  width: 92 px;
-  height: 92 px;
-}
-@keyframes rotacion {
-
-0%{ background-position: 0px 0px; }
-100%{ background-position: 360px 0px; }
-}
+ 
